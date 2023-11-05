@@ -5,7 +5,7 @@ int main()
 {
 	float cd=1, kol, i;
 	setlocale(LC_ALL, "Russian");
-	cout << "ââåäèòå ÷èñëî ýëåìåíòîâ äðîáè kol = ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð´Ñ€Ð¾Ð±Ð¸ kol = ";
 	cin >> kol;
 	for (i = 0; i < kol - 1; i++)
 		cd = 1 / (1 + cd);
