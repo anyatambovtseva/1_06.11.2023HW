@@ -5,7 +5,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     double x;
-    cout << "Ââåäèòå x: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x: ";
     cin >> x;
     double yi = x,
         yi1 = 0;
