@@ -5,9 +5,9 @@ int main()
 {
 	int i, N, k, sum=0;
 	setlocale(LC_ALL, "Russian");
-	cout << "ââåäèòå ÷èñëî N = ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ N = ";
 	cin >> N;
-	cout << "ââåäèòå ñòåïåíü k = ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ k = ";
 	cin >> k;
 	for (i = 1; i < N + 1; i++)
 		sum = sum + pow(i, k);
